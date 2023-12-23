@@ -10,13 +10,13 @@
 - Avoir installer la cli AWS - `sudo apt install awscli`
 
 ### Etape :
-- Copie le contenu de ce repo et se positionner dans le répertoire de travail
+- Copier le contenu de ce repo et se positionner dans le répertoire de travail
 - faire un : `aws configure` pour positionner ces identifiants aws et la région utilisée.
 - lancer un `terraform init` pour initialiser terraform
 - lancer un `terraform plan` pour verifier ce qu'il va faire
-- lancer un `terraform apply` pour créer la VM
+- lancer un `terraform apply` pour créer la VM ainsi que les autres objets néccéssaires à son fonctionnement.
 - faire un `ssh ec2-user@adresse_ip` avec l'adresse IP renvoyé à la fin du apply
-- faire un `teraform destroy` pour tout supprimer
+- faire un `terraform destroy` pour tout supprimer
 
 # Problèmes rencontrées et solutions
 
