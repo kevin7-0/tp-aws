@@ -20,11 +20,6 @@ variable "cidr_blocks" {
   default     = ["0.0.0.0/0"] # Inséré ici votre adresse IP pour pouvoir vous connecter en SSH aux machines ou laisser 0.0.0.0/0 pour un accés depuis n'importe quel machine
 }
 
-variable "key_pair_name" {
-  description = "Nom de la clé SSH."
-  default     = "tp-aws-key"
-}
-
 variable "public_key" {
   description = "Clé publique SSH."
   default     = "~/.ssh/id_rsa.pub" # Chemin vers votre clef publique personnel présentes sur votre machine/serveur.
